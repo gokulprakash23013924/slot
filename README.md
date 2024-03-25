@@ -38,14 +38,17 @@ table,th,td {
     border-style: solid;
 }
 .head{
-    background-color:  #55d1f7;
+    background-color:  #c6f755;
 }
 .data{
     text-align: center;
-    background-color: #2bffdf;
+    background-color: #ff4b2b;
 }
 table,img{
     margin: 20px;
+}
+.cont{
+    background-color: aqua;
 }
         </style>
     </head>
@@ -103,7 +106,7 @@ table,img{
                     <td class="data">FREE</td>
                 </tr>
             </table>
-            <table>
+            <table class="cont">
                 <tr>
                     <th>S.No</th>
                     <th>Subject Code</th>
@@ -113,7 +116,7 @@ table,img{
                     <tr>
                         <td>1.</td>
                         <td>19AI305</td>
-                        <td>Advanced C Programming(Adv C)</td>
+                        <td style="color: white;border-color: black;">Advanced C Programming(Adv C)</td>
                     </tr>
                     <tr>
                         <td>2.</td>
@@ -159,7 +162,7 @@ table,img{
 ```
 
 ## OUTPUT
-
+![alt text](image-1.png)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
