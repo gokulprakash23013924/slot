@@ -27,131 +27,139 @@ Execute the program using runserver command.
 ```
 <html>
     <head>
-        <title>
-            gokul's slot  
-        </title>
-      
+        <title>Saveetha Engineering college</title>
+        <style>
+            img {
+    text-align: center;
+    width: 40em;
+}
+table,th,td {
+    border: 2px;
+    border-style: solid;
+}
+.head{
+    background-color:  #55d1f7;
+}
+.data{
+    text-align: center;
+    background-color: #2bffdf;
+}
+table,img{
+    margin: 20px;
+}
+        </style>
     </head>
     <body>
         <center>
-        <img src="logo.png" width="600px">
-        <h2> SLOT TIME TABLE gokul prakash(23013924)</h2>
-
-        <table border="5" bgcolor="F5B7B1" >
-            <tr bgcolor="CB4335">
-                <th>day/time</th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-                <th>saturday</th>
-            </tr>
-            <tr>
-                <td bgcolor="CB4335">8-10</td>
-                <td bgcolor="E77063">FWAD</td>
-                <td>-</td>
-                <td>Maths</td>
-                <td>os</td>
-                <td>cn</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td bgcolor="CB4335">10-12</td>
-                <td>-</td>
-                <td>-</td>
-                <td>cn</td>
-                <td>-</td>
-                <td>-</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td bgcolor="CB4335">1-3</td>
-                <td>-</td>
-                <td>physics</td>
-                <td>physics</td>
-                <td bgcolor="E77063">FWAD</td>
-                <td bgcolor="E77063">FWAD</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td bgcolor="CB4335">3-5</td>
-                <td>maths</td>
-                <td>-</td>
-                <td>-</td>
-                <td>cs</td>
-                <td>os</td>
-                <td>-</td>
-            </tr>
-           
-           
-        </table>
-        <br>
-        <br>
-        <table border="5" bgcolor="DAF7A6">
-            <tr>
-                <th>S.No.</th>
-                <th>Subject code</th>
-                <th>Subject name</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>19AI414</td>
-                <td><font color="F7DC6F">FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT(FWAD)</font></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>19CS405</td>
-                <td>operating system(os)</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>19CS406</td>
-                <td>computer networks(cn)</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>19EN101</td>
-                <td>communicative english(ce)</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>19EY702</td>
-                <td>creative skills for communication(cs)</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>19MA222</td>
-                <td>probablity and queueing models(maths)</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>19MC802</td>
-                <td>environmental science</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>19PH214</td>
-                <td>physics for quantum computing</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>19AI304</td>
-                <td>fundamentals of c programming</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>19HS102</td>
-                <td>tamil and technology</td>
-            </tr>
-        </table>
-    </center>
+            <img src="logo.png" alt="Saveetha">
+            <h1 style="font-family: cursive; font-size: 15px;">gokul prakash (212223240041)</h1>
+            <table>
+                <tr>
+                    <th class="head">Day&time</th>
+                    <th class="head">Monday</th>
+                    <th class="head">Tuesday</th>
+                    <th class="head">Wednesday</th>
+                    <th class="head">Thursday</th>
+                    <th class="head">Friday</th>
+                    <th class="head">Saturday</th>
+                </tr>
+                <tr>
+                    <th class="head">8-10</th>
+                    <td class="data">FWA</td>
+                    <td class="data">T&A</td>
+                    <td class="data">Adv C</td>
+                    <td class="data">OS</td>
+                    <td class="data" colspan="2">FREE</td>
+                </tr>
+                <tr>
+                    <th class="head">10-12</th>
+                    <td class="data">Adv C</td>
+                    <td class="data">FREE</td>
+                    <td class="data">PQC</td>
+                    <td class="data">T&A</td>
+                    <td class="data">CS</td>
+                    <td class="data">FREE</td>
+                </tr>
+                <tr>
+                    <th class="head">12-1</th>
+                    <td class="data" colspan="6">LUNCH BREAK</td>
+                </tr>
+                <tr>
+                    <th class="head">1-3</th>
+                    <td class="data">STOCK</td>
+                    <td class="data">OS</td>
+                    <td class="data">S&N</td>
+                    <td class="data">FWA</td>
+                    <td class="data">FWA</td>
+                    <td class="data">S&N</td>
+                </tr>
+                <tr>
+                    <th class="head">3-5</th>
+                    <td class="data">FREE</td>
+                    <td class="data">PHY</td>
+                    <td class="data">STOCK</td>
+                    <td class="data">FREE</td>
+                    <td class="data">FREE</td>
+                    <td class="data">FREE</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>S.No</th>
+                    <th>Subject Code</th>
+                    <th>Subject Name</th>
+                </tr>
+                <tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>19AI305</td>
+                        <td>Advanced C Programming(Adv C)</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>19AI414</td>
+                        <td>Fundamentals of web Application(FWA)</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>19CS405</td>
+                        <td>Operating System(OS)</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>19EY702</td>
+                        <td>Creative Skill(CS)</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>19MA211</td>
+                        <td>Statics and Numerical Methods(S&N)</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>19MA219</td>
+                        <td>Transfroms and its applications(T&A)</td>
+                    </tr>
+                    <tr>
+                        <td>7.</td>
+                        <td>19MS155</td>
+                        <td>Stock Market and Company Operations(STOCK)</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>19PH214</td>
+                        <td>Physics for Quantum Computing(PHY)</td>
+                    </tr>
+                </tr>
+            </table>
+        </center>
     </body>
 </html>
+
 ```
 
 ## OUTPUT
-![alt text](image.png)
+
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
